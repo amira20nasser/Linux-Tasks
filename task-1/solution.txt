@@ -10,7 +10,7 @@ cd /home/osc/Downloads/
 cp one.txt copy.txt
 cd ..
 cd amira
-nano amira
+nano two.txt
 for i in `seq 1 8`; do echo -n -e $i-hello OSC \ >> three.txt; done; echo "" >> three.txt
 mv three.txt hello.txt
 rm four.txt
