@@ -1,7 +1,7 @@
 git config --global user.name "amira"
 git config --global user.email "amira20nasser@gmail.com"
-git clone https://github.com/amira20nasser/Linux-Tasks.git /home/osc/amira
-cd /home/osc/amira/Linux-Tasks/
+git clone https://github.com/amira20nasser/Linux-Tasks.git /home/osc/amira/
+cd /home/osc/amira/
 mkdir task-2
 cd task-2
 touch greeting.txt
