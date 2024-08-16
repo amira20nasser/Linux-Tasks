@@ -1,4 +1,3 @@
-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
 # Linux-Tasks
 This repository contains a collection of Linux-based tasks, designed to enhance your command line skills and deepen your understanding of Linux systems.
 ## Tasks
