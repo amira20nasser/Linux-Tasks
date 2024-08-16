@@ -1,0 +1,15 @@
+git config --global user.name "amira"
+git config --global user.email "amira20nasser@gmail.com"
+git clone https://github.com/amira20nasser/Linux-Tasks.git /home/osc/amira
+cd /home/osc/amira/Linux-Tasks/
+mkdir task-2
+cd task-2
+touch greeting.txt
+nano greeting.txt
+git commit -a -m "Added greating"
+git checkout -b intro
+nano greeting.txt 
+git commit -a -m "Added I love git"
+git checkout main
+git merge intro
+git tag -a "v1"
