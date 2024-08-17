@@ -14,3 +14,4 @@ git commit -a -m "Added I love git"
 git checkout main
 git merge intro
 git tag -a v1 -m "Finished First Release"
+git push origin main
