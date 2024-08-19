@@ -1,7 +1,7 @@
 ## Agenda
 - [What is a File System?](#file-system)
 - [Terminal & Shell](#terminal--shell)
-- [File and Directory Commands](#file-and-firectory-management)
+- [File and Directory Commands](#file-and-directory-management)
 
 ## File System
 
