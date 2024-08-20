@@ -1,0 +1,32 @@
+mkdir /home/osc/project_files
+for dir in reports logs data; do mkdir /home/osc/project_files/$dir; done
+cd /home/osc/project_files/reports/
+touch report1.md  report2.md
+cd /home/osc/project_files/logs/ 
+touch system.log error.log file1.pdf file2.pdf
+touch /home/osc/project_files/data/data.csv  /home/osc/project_files/data/info.txt
+nano /home/osc/project_files/reports/report1.md
+nano /home/osc/project_files/logs/system.log
+nano /home/osc/project_files/data/data.csv
+tar -czvf logs_backup.tar logs
+mv  logs_backup.tar /home/osc/project_files/
+tar -xf logs_backup.tar
+find ~ -name "*.md"
+find /home/osc/project_files/ -name "*.log"
+find /home/osc/project_files/ -name file1.pdf
+find /home/osc/project_files/ -iname "*.pdf"
+find /home/osc/project_files/logs/ -type f
+ln -s /home/osc/project_files/data/data.csv  /home/osc/project_files/link-data.csv
+nano /home/osc/project_files/link-data.csv
+cat /home/osc/project_files/data/data.csv
+rm link-data.csv 
+touch summary.txt
+echo "Summary Start" 1> summary.txt
+date 1>> summary.txt 
+cat summary.txt | tee >(wc -l) | tee summary.txt 
+cat reports/report1.md | wc -w
+cat logs/system.log | wc -m >> summary.txt
+ls | wc -l >> summary.txt
+cat summary.txt
+
+
