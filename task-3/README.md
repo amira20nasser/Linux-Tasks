@@ -1,9 +1,9 @@
 ## Agenda
-- [1.Finding Files](#1.-finding-files)
-- [2.File Compression and Archiving](#2.-file-compression-and-archiving)
-- [3. Creating Links Between Files](# 3.-creating-links-between-files)
-- [4. Redirecting Output](#4.-redirecting-ooutput)
-- [5. Pipeline](#5.-pipeline)
+- [1.Finding Files](##1.-finding-files)
+- [2.File Compression and Archiving](##2.-file-compression-and-archiving)
+- [3. Creating Links Between Files](##3.-creating-links-between-files)
+- [4. Redirecting Output](##4.-redirecting-ooutput)
+- [5. Pipeline](##5.-pipeline)
 
 ## 1. Finding Files
 
@@ -80,13 +80,13 @@ Explore how to create hard and symbolic links:
   - use `rm [link-file]`: remove link-file 
 
 ### difference between soft and hard link
-<img src="/imgs/soft-hard.webp" alt="Hard Link Vs Soft Link">
+<img src="imgs/soft-hard.webp" alt="Hard Link Vs Soft Link" height="300" width="300">
 
 
 ## 4. Redirecting Output
 
 ### standard input-output 
-<img src="/imgs/input-output.png" alt="input-output pipeline">
+<img src="imgs/input-output.png" alt="input-output pipeline" height="200">
 
 Learn how to redirect and manage command output:
 
@@ -107,7 +107,7 @@ Learn how to redirect and manage command output:
 ## 5. Pipeline
   - `|`: Pass the output of one command as input to another.
 
-<img src="/imgs/pipline.png" alt="Pipeline">
+<img src="imgs/pipline.png" alt="Pipeline">
 
 - Example: `ls | tee fileNames.txt`: Display the output of a command on the terminal (standard output) and Write the same output to a file you specify.
 
