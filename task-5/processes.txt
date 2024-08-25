@@ -1,0 +1,251 @@
+    PID CMD
+    857 avahi-daemon: chroot helper
+    784 avahi-daemon: running [osc.local]
+   2983 bash
+     20 [cpuhp/0]
+     21 [cpuhp/1]
+    785 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+     52 [ecryptfs-kthread]
+   1688 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   1586 gdm-session-worker [pam/gdm-password]
+   2408 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+     19 [idle_inject/0]
+     22 [idle_inject/1]
+     42 [irq/9-acpi]
+    300 [jbd2/dm-0-8]
+    535 [jbd2/sda2-8]
+     30 [kauditd]
+     35 [kcompactd0]
+     27 [kdevtmpfs]
+     38 [khugepaged]
+     31 [khungtaskd]
+     36 [ksmd]
+     16 [ksoftirqd/0]
+     24 [ksoftirqd/1]
+     51 [kswapd0]
+      2 [kthreadd]
+     10 [kworker/0:0H-kblockd]
+   2918 [kworker/0:0-inet_frag_wq]
+      9 [kworker/0:1-events]
+    128 [kworker/0:2-cgroup_destroy]
+    167 [kworker/0:2H-kblockd]
+   2919 [kworker/0:3-events]
+   2892 [kworker/1:0-cgroup_destroy]
+     26 [kworker/1:0H-events_highpri]
+     50 [kworker/1:1H-kblockd]
+    254 [kworker/1:2-events]
+    739 [kworker/1:3-cgroup_destroy]
+     54 [kworker/R-acpi_]
+     44 [kworker/R-ata_s]
+     41 [kworker/R-blkcg]
+     85 [kworker/R-charg]
+    529 [kworker/R-crypt]
+     48 [kworker/R-devfr]
+     47 [kworker/R-edac-]
+    301 [kworker/R-ext4-]
+    536 [kworker/R-ext4-]
+     28 [kworker/R-inet_]
+     62 [kworker/R-ipv6_]
+     40 [kworker/R-kbloc]
+    258 [kworker/R-kdmfl]
+     39 [kworker/R-kinte]
+     70 [kworker/R-kstrp]
+     53 [kworker/R-kthro]
+     45 [kworker/R-md]
+     46 [kworker/R-md_bi]
+     61 [kworker/R-mld]
+     12 [kworker/R-mm_pe]
+      7 [kworker/R-netns]
+      4 [kworker/R-rcu_g]
+      5 [kworker/R-rcu_p]
+     56 [kworker/R-scsi_]
+     58 [kworker/R-scsi_]
+    143 [kworker/R-scsi_]
+    145 [kworker/R-scsi_]
+    147 [kworker/R-scsi_]
+    149 [kworker/R-scsi_]
+    151 [kworker/R-scsi_]
+    153 [kworker/R-scsi_]
+    155 [kworker/R-scsi_]
+    157 [kworker/R-scsi_]
+    159 [kworker/R-scsi_]
+    161 [kworker/R-scsi_]
+    163 [kworker/R-scsi_]
+    166 [kworker/R-scsi_]
+    169 [kworker/R-scsi_]
+    194 [kworker/R-scsi_]
+    196 [kworker/R-scsi_]
+    198 [kworker/R-scsi_]
+    200 [kworker/R-scsi_]
+    202 [kworker/R-scsi_]
+    204 [kworker/R-scsi_]
+    206 [kworker/R-scsi_]
+    208 [kworker/R-scsi_]
+    210 [kworker/R-scsi_]
+    212 [kworker/R-scsi_]
+    214 [kworker/R-scsi_]
+    216 [kworker/R-scsi_]
+    218 [kworker/R-scsi_]
+    220 [kworker/R-scsi_]
+    222 [kworker/R-scsi_]
+    224 [kworker/R-scsi_]
+    226 [kworker/R-scsi_]
+      6 [kworker/R-slub_]
+     43 [kworker/R-tpm_d]
+    130 [kworker/R-ttm]
+     34 [kworker/R-write]
+   2914 [kworker/u4:0-events_unbound]
+   3007 [kworker/u4:1-ext4-rsv-conversion]
+    248 [kworker/u4:26-events_power_efficient]
+    249 [kworker/u4:27-events_unbound]
+    251 [kworker/u4:29-events_power_efficient]
+     72 [kworker/u5:0]
+     18 [migration/0]
+     23 [migration/1]
+     32 [oom_reaper]
+      3 [pool_workqueue_release]
+   3105 ps -e -o pid,cmd --sort=cmd
+    457 [psimon]
+   1084 [psimon]
+     17 [rcu_preempt]
+     13 [rcu_tasks_kthread]
+     14 [rcu_tasks_rude_kthread]
+     15 [rcu_tasks_trace_kthread]
+      1 /sbin/init splash
+     55 [scsi_eh_0]
+     57 [scsi_eh_1]
+    158 [scsi_eh_10]
+    160 [scsi_eh_11]
+    162 [scsi_eh_12]
+    165 [scsi_eh_13]
+    168 [scsi_eh_14]
+    170 [scsi_eh_15]
+    195 [scsi_eh_16]
+    197 [scsi_eh_17]
+    199 [scsi_eh_18]
+    201 [scsi_eh_19]
+    131 [scsi_eh_2]
+    203 [scsi_eh_20]
+    205 [scsi_eh_21]
+    207 [scsi_eh_22]
+    209 [scsi_eh_23]
+    211 [scsi_eh_24]
+    213 [scsi_eh_25]
+    215 [scsi_eh_26]
+    217 [scsi_eh_27]
+    219 [scsi_eh_28]
+    221 [scsi_eh_29]
+    144 [scsi_eh_3]
+    223 [scsi_eh_30]
+    225 [scsi_eh_31]
+    146 [scsi_eh_4]
+    148 [scsi_eh_5]
+    150 [scsi_eh_6]
+    152 [scsi_eh_7]
+    154 [scsi_eh_8]
+    156 [scsi_eh_9]
+   1597 (sd-pam)
+   2298 /snap/snapd-desktop-integration/178/usr/bin/snapd-desktop-integration
+   2355 /snap/snapd-desktop-integration/178/usr/bin/snapd-desktop-integration
+   3106 tee processes.txt
+   1861 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+   1620 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   2371 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+   1950 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   1624 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+   1848 /usr/bin/gnome-shell
+   2969 /usr/bin/gnome-terminal.real --wait
+   3049 /usr/bin/gnome-text-editor /home/osc/The-Art-of-Linux-24/Session 5/README.md
+   1958 /usr/bin/ibus-daemon --panel disable
+   1613 /usr/bin/pipewire
+   1615 /usr/bin/pipewire -c filter-chain.conf
+   1619 /usr/bin/pipewire-pulse
+   2966 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+   1049 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+   2688 /usr/bin/update-notifier
+   1618 /usr/bin/wireplumber
+   2627 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.GH62S2 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+    811 /usr/libexec/accounts-daemon
+   1906 /usr/libexec/at-spi2-registryd --use-gnome-session
+   1847 /usr/libexec/at-spi-bus-launcher --launch-immediately
+   1235 /usr/libexec/colord
+   1934 /usr/libexec/dconf-service
+   2230 /usr/libexec/evolution-addressbook-factory
+   2191 /usr/libexec/evolution-calendar-factory
+   2000 /usr/libexec/evolution-data-server/evolution-alarm-notify
+   1948 /usr/libexec/evolution-source-registry
+   2941 /usr/libexec/fwupd/fwupd
+   1771 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+   1684 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+    788 /usr/libexec/gnome-remote-desktop-daemon --system
+   1692 /usr/libexec/gnome-session-binary --session=ubuntu
+   1806 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   1773 /usr/libexec/gnome-session-ctl --monitor
+   1926 /usr/libexec/gnome-shell-calendar-server
+   2975 /usr/libexec/gnome-terminal-server
+   2154 /usr/libexec/goa-daemon
+   2190 /usr/libexec/goa-identity-service
+   1959 /usr/libexec/gsd-a11y-settings
+   1960 /usr/libexec/gsd-color
+   1963 /usr/libexec/gsd-datetime
+   2010 /usr/libexec/gsd-disk-utility-notify
+   1966 /usr/libexec/gsd-housekeeping
+   1968 /usr/libexec/gsd-keyboard
+   1974 /usr/libexec/gsd-media-keys
+   1975 /usr/libexec/gsd-power
+   2124 /usr/libexec/gsd-printer
+   1976 /usr/libexec/gsd-print-notifications
+   1989 /usr/libexec/gsd-rfkill
+   1995 /usr/libexec/gsd-screensaver-proxy
+   2009 /usr/libexec/gsd-sharing
+   2012 /usr/libexec/gsd-smartcard
+   2014 /usr/libexec/gsd-sound
+   2018 /usr/libexec/gsd-wacom
+   2631 /usr/libexec/gsd-xsettings
+   2218 /usr/libexec/gvfs-afc-volume-monitor
+   1791 /usr/libexec/gvfsd
+   1803 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   2478 /usr/libexec/gvfsd-metadata
+   2873 /usr/libexec/gvfsd-recent --spawner :1.19 /org/gtk/gvfs/exec_spaw/1
+   2287 /usr/libexec/gvfsd-trash --spawner :1.19 /org/gtk/gvfs/exec_spaw/0
+   2211 /usr/libexec/gvfs-goa-volume-monitor
+   2206 /usr/libexec/gvfs-gphoto2-volume-monitor
+   2196 /usr/libexec/gvfs-mtp-volume-monitor
+   2085 /usr/libexec/gvfs-udisks2-volume-monitor
+   2261 /usr/libexec/ibus-engine-simple
+   2160 /usr/libexec/ibus-extension-gtk3
+   2156 /usr/libexec/ibus-memconf
+   2163 /usr/libexec/ibus-portal
+   2652 /usr/libexec/ibus-x11
+   2654 /usr/libexec/mutter-x11-frames
+    805 /usr/libexec/power-profiles-daemon
+   1122 /usr/libexec/rtkit-daemon
+    819 /usr/libexec/switcheroo-control
+   2393 /usr/libexec/tracker-miner-fs-3
+    825 /usr/libexec/udisks2/udisksd
+   1271 /usr/libexec/upowerd
+   2447 /usr/libexec/xdg-desktop-portal
+   2453 /usr/libexec/xdg-desktop-portal-gnome
+   2482 /usr/libexec/xdg-desktop-portal-gtk
+   1667 /usr/libexec/xdg-document-portal
+   1671 /usr/libexec/xdg-permission-store
+    804 /usr/lib/polkit-1/polkitd --no-debug
+    808 /usr/lib/snapd/snapd
+    370 /usr/lib/systemd/systemd-journald
+    809 /usr/lib/systemd/systemd-logind
+    615 /usr/lib/systemd/systemd-oomd
+    626 /usr/lib/systemd/systemd-resolved
+    633 /usr/lib/systemd/systemd-timesyncd
+    432 /usr/lib/systemd/systemd-udevd
+   1596 /usr/lib/systemd/systemd --user
+    818 /usr/sbin/cron -f -P
+   1060 /usr/sbin/cups-browsed
+   1042 /usr/sbin/cupsd -l
+   1064 /usr/sbin/gdm3
+   1076 /usr/sbin/kerneloops
+   1066 /usr/sbin/kerneloops --test
+    897 /usr/sbin/ModemManager
+    862 /usr/sbin/NetworkManager --no-daemon
+    839 /usr/sbin/rsyslogd -n -iNONE
+    866 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+     49 [watchdogd]
